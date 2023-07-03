@@ -34,7 +34,7 @@ function searchTroopByTroopId(troopId, players){
 async function updatePlayersMap(game) {
     try {
         const response = await axios({
-            url: 'http://localhost:3000/players/showAll',
+            url: 'https://my-game-deploy.onrender.com/players/showAll',
             method: 'get',
         });
         console.log("Se obtienen todos los jugadores");
@@ -90,7 +90,7 @@ async function updatePlayersMap(game) {
 async function updateTroopsMap(game) {
     try {
         const response = await axios({
-            url: 'http://localhost:3000/troops/showAll',
+            url: 'https://my-game-deploy.onrender.com/troops/showAll',
             method: 'get',
         });
       
@@ -148,7 +148,7 @@ async function updateTroopsMap(game) {
 async function updateBuildingsMap(game) {
     try {
         const response = await axios({
-            url: 'http://localhost:3000/buildings/showAll',
+            url: 'https://my-game-deploy.onrender.com/buildings/showAll',
             method: 'get',
         });
         console.log("Se obtienen todos los edificios");

@@ -157,7 +157,7 @@ function Boards() {
                 "strength": dataHealthStrengthValue.strength,
                 "value": dataHealthStrengthValue.value };
                 
-                axios.post(`http://localhost:3000/troops/`, dataTroop)
+                axios.post(`https://my-game-deploy.onrender.com/troops/`, dataTroop)
                     .then(response => {
                         console.log(response.data);
                         if (structOrTroop === "troop"){
@@ -194,7 +194,7 @@ function Boards() {
                 "health": dataHealthValue.health,
                 "value": dataHealthValue.value };
                 
-                axios.post(`http://localhost:3000/buildings/`, dataBuilding)
+                axios.post(`https://my-game-deploy.onrender.com/buildings/`, dataBuilding)
                     .then(response => {
                         console.log(response.data);
                         if (structOrTroop === "building"){
@@ -236,7 +236,7 @@ function Boards() {
                      'troopId': selectedPiece.id,
                     };
                 //se maneja el de troops
-                axios.patch(`http://localhost:3000/troops`, data)
+                axios.patch(`https://my-game-deploy.onrender.com/troops`, data)
                     .then(response => {
                         console.log(response.data);
                         console.log(response.data.id, response.data.damage,"ATAQUE EJECUTADO CORRECTAMENTE");
@@ -403,7 +403,7 @@ function Boards() {
                          'troopId': piezaActual.troopOrBuilding.id,
                         };
                     
-                    axios.patch(`http://localhost:3000/troops`, data)
+                    axios.patch(`https://my-game-deploy.onrender.com/troops`, data)
                         .then(response => {
                             console.log(response.data);
                             console.log("MOVIMIENTO EJECUTADO CORRECTAMENTE")
