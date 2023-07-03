@@ -1,0 +1,74 @@
+.Autores {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 95%;
+    height: auto;
+}
+.Autores img {
+    place-items: center;
+    display: grid;
+    margin-right: 5px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+.MartoSW {
+    width: 495px;
+    height: 495;
+
+
+}
+.Hellonston {
+    width: 495px;
+    height: 495;
+
+}
+.hellonston_images{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+.marto_images{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+}
+.hellonston_images img{
+    display: flex; 
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+}
+.marto_images img{
+    display: flex; 
+    width: 200px;
+    height: 200px;
+    align-items: center;
+
+}
+
+
+h2 {
+    color: rgb(117, 66, 8);
+	font-family: "Lucida Handwriting", "Courier New", monospace;
+	text-align: center;
+}
+
+p {
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+	font-family: "Lucida Handwriting", "Courier New", monospace;
+	text-align: center;
+}
+
+h3 {
+    color: rgb(117, 66, 8);
+	font-family: "Lucida Handwriting", "Courier New", monospace;
+	text-align: center;
+}

@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.estadisticas {
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 5;
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+  }
+  
+.titulo {
+  font-size: 5px;
+  margin-bottom: 1px;
+}
+  
+.dato {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1px;
+  height: 10px;
+  width: 10px;
+}
+
+.etiqueta {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.valor {
+  font-weight: normal;
+}

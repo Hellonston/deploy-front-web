@@ -1,0 +1,99 @@
+.pergamino {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+}
+.pergamino img {
+    place-items: center;
+    display: grid;
+    margin-right: 20px;
+    width: 600px;
+    height: 600px;
+  }
+  
+.leaderboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 600px;
+  /*background-color: rgba(230, 165, 15, 0.5);*/
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  
+  
+}
+.leaderboard li {
+  margin-bottom: 10px;
+}
+
+/* Agrega espaciado interno a los elementos del leaderboard */
+.leaderboard span {
+  padding: 5px;
+}
+.instrucciones_ranking {
+  place-items: center;
+  display: grid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 500px;
+  max-height: 500px;
+  /*background-color: rgba(230, 165, 15, 0.5);*/
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  color: rgb(47, 0, 166);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.pergamino-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pergamino {
+  max-width: 100%;
+  height: auto;
+}
+
+.pergamino-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.text {
+  text-align: center;
+}
+
+/* Estilos adicionales para el leaderboard y sus elementos */
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .pergamino-text {
+    font-size: 12px; /* Ajusta el tamaño del texto en pantallas más pequeñas */
+  }
+}

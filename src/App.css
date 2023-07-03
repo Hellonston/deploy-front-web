@@ -1,0 +1,31 @@
+body {
+  background-image: url(./assets/index_background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  color: rgb(117, 66, 8);
+  font-family: "Lucida Handwriting", "Courier New", monospace;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul img { 
+  width: 40%;
+  height: 40%;
+}
+
+.navbar {
+  margin-left: auto; 
+  margin-right: 0;
+}
